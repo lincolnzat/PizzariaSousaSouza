@@ -1,0 +1,171 @@
+* {
+  font-family: Poppins;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  margin-top: -9px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #ffffff;
+  border-radius: 8px;
+  font-family: Poppins;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.entrar:hover {
+  color: #5a5959;
+  
+}
+
+.botao {
+  border-radius: 50px;
+  background-color: #272727;
+  color:white;
+}
+
+.botao:hover {
+  background-color: #5a5959;
+}
+
+.circulo
+{
+  position: absolute;
+  margin-top: -550px;
+  border-radius: 50%;
+  width: 1300px;
+  height: 1300px; 
+  background-color: #cf2932;
+  z-index: -1;
+  }
+
+.retangulo {
+  background-image: url(/src/assets/img/pizza.png);
+  background-size: 400px 400px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-top: 200px;
+  margin-right: 20px;
+  height: 400px;
+  width: 1000px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  z-index: 1;
+  padding: 4rem 4rem 4rem 4rem;
+ }
+
+ p {
+  font-size: 30px;
+  font-weight: 400;
+  max-width: 32rem;
+  }
+
+  .informacao {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-weight: lighter;
+  max-width: 38rem;
+  }
+
+  .nota {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    max-width: 100rem;
+  }
+
+  .subnota {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
+    max-width: 100rem;
+  }
+
+  .formTitulo {
+    font-size: 32px;
+    font-weight: 400;
+    min-width: 100rem;
+    margin-top: 100px;
+    color: white;
+    
+  }
+
+  .formSubtitulo {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #281c24;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(../public/Poppins-Medium.ttf);
+}
+
+.ajuste {
+  margin-top: 20px;
+}
+
+.circuloformulario
+{
+  position: absolute;
+  margin-top: -300px;
+  border-radius: 50%;
+  width: 1400px;
+  height: 1400px; 
+  background-color: #cf2932;
+  z-index: -1;
+}
+
+.subir {
+  margin-top: -50px;
+}
+
+.espacamento {
+ margin-left: 10px;
+ margin-right: 10px;
+}
+
+.imgForm {
+  margin-top: -750px;
+  margin-left: 100px;
+}
+
+.imgForm2 {
+  margin-top: -350px;
+  margin-left: 100px;
+}
