@@ -1,23 +1,22 @@
-import NavbarInicial from "../Componentes/NavbarInicial";
+import NavLogado from "../Componentes/NavLogado";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import CirculoPrincipal from "../Componentes/CirculoPrincipal";
 import Pepperoninja from "../Componentes/Pepperoninja";
-import CirculoFormulario from "../Componentes/CirculoFormulario";
 import Pizzas from "/src/cardpizza";
+import Circulo2 from "../Componentes/Circulo2";
+import Ofertas from "../src/cardofertas";
+import Entradinhas from "../src/cardentradas";
+import Sobremesas from "../src/cardsobremesas";
+import Footer from "../Componentes/Footer";
+
+
 
 function Principal() {
     return (
     <div>
-    <NavbarInicial />
-    {/* <Container>
-        <Row>
-        <Col >
-            <CirculoFormulario />
-        </Col>
-        </Row>
-    </Container> */}
+    <NavLogado />
+     <Circulo2/>
     <Container>
         <Row>
         <Col className="mt-5">
@@ -29,7 +28,16 @@ function Principal() {
         <Row>
             <Col>
             <h4 className="mt-5">Dá uma olhada nessas ofertas!</h4>
-            <Pizzas/>
+            <Ofertas/>
+            </Col>
+        </Row>
+    </Container>
+    <Container>
+        <Row>
+            <Col>
+            <div className="michelangelo"></div>
+            <div className="raphael"></div>
+            <div className="donatello"></div>
             </Col>
         </Row>
     </Container>
@@ -51,8 +59,8 @@ function Principal() {
     <Container>
         <Row>
             <Col>
-            <h5 className="mt-2">Entradinhas</h5>
-            <Pizzas/>
+        <h5 className="mt-2">Entradinhas</h5>
+            <Entradinhas/>
             </Col>
         </Row>
     </Container>
@@ -60,14 +68,15 @@ function Principal() {
         <Row>
             <Col>
             <h5 className="mt-2">Sobremesas</h5>
-            <Pizzas/>
+            <Sobremesas/>
             </Col>
         </Row>
     </Container>
-    </div>
-    
+    <Col className="desca" >
+    <Footer/>
+    </Col>
+   </div>
    
     );
-
 }
 export default Principal

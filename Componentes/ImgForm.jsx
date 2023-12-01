@@ -13,7 +13,7 @@ function ImgForm() {
                   src="/src/assets/img/Cadastro.png"
                   width="100%"
                   height="100%"
-                  className="d-inline-block align-top " />{" "}
+                  className="d-inline-block align-top" />{" "}
               </div>
             </Col>
           </Row>

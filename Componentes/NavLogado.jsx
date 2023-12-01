@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button";
 
 
 
-function NavbarInicial() {
+function NavbarLogado() {
     return (
        <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
       <Container>
@@ -14,17 +14,12 @@ function NavbarInicial() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-          <Nav.Link href="/Usuario">Clientes</Nav.Link>
-            <Nav.Link href="/Pedidos">Pedidos</Nav.Link>
-            <Nav.Link href="/Produtos">Produtos</Nav.Link>
+          <Nav.Link href="/Produtos">Produtos</Nav.Link>
             </Nav>
-          <Nav>
-          <Nav.Link href="/Perfil">Meu perfil</Nav.Link>
-          </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
      );
 }
 
-export default NavbarInicial
+export default NavbarLogado

@@ -11,20 +11,20 @@ function Formulario2() {
             <Col xs lg="6">
               <p class="formTitulo">Acesse a sua conta!</p>
               <Col xs lg="8">
-                <Form>
+                <Form action="http://localhost/Slim/api/logar" method="POST">
                   <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Form.Label><p class="formSubtitulo">E-mail</p></Form.Label>
-                    <Form.Control type="email" placeholder="Digite o seu e-mail" />
+                    <Form.Control type="email" name="email" placeholder="Digite o seu e-mail" />
                   </Form.Group>
                   <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Form.Label><p class="formSubtitulo">Senha</p></Form.Label>
-                    <Form.Control type="email" placeholder="Digite a sua senha" />
+                    <Form.Control type="password" name="senha" placeholder="Digite a sua senha" />
                   </Form.Group>
-                </Form>
-                <Row xs lg="2" className="justify-content-md-center">
-                  <Button variant="dark">Entrar</Button>
+                  <Row xs lg="2" className="justify-content-md-center">
+                  <Button variant="dark" type="submit">Entrar</Button>
                 </Row>
-              </Col>
+                </Form>
+                </Col>
             </Col>
           </Row>
         </Container>

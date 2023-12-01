@@ -5,17 +5,13 @@ import BarraNav from "../Componentes/BarraNav";
 import CirculoForm from "../Componentes/CirculoFormulario";
 import Formulario from "../Componentes/Formulario";
 import ImgForm from "../Componentes/ImgForm";
-
+import Footer from "../Componentes/Footer";
 function CriarConta() {
   return (
     <div>
       <div>
-        <Container>
-          <Col>
         <BarraNav/>
-        </Col>
-        </Container>
-      </div>
+        </div>
       <Container>
         <Row className="justify-content-md-center">
         <CirculoForm/>
@@ -27,6 +23,9 @@ function CriarConta() {
         <ImgForm/>
         </Container>
       </div>
+      <Col className="desca3">
+      <Footer/>
+      </Col>
     </div>
   );
 }

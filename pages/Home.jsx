@@ -1,8 +1,4 @@
-import Menu from "./Menu";
 import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import BarraNav from "../Componentes/BarraNav";
@@ -11,6 +7,7 @@ import CirculoPrincipal from "../Componentes/CirculoPrincipal";
 import ImagemSimples from "../Componentes/ImagemSimples";
 import InformacaoSimples from "../Componentes/InformacaoSimples";
 import Pepperoninja from "../Componentes/Pepperoninja";
+import Footer from "../Componentes/Footer";
 
 function Home() {
   return (
@@ -26,8 +23,8 @@ function Home() {
       <Container>
         <Row className="justify-content-md-center">
           <Col md="auto">
-            <Retangulo />
-          </Col>
+           <Retangulo />
+            </Col>
         </Row>
       </Container>
       <div>
@@ -46,7 +43,8 @@ function Home() {
               </Row>
             </Col>
         </Container>
-      </div>
+        <Footer/>
+     </div>
     </div>
   );
 }
